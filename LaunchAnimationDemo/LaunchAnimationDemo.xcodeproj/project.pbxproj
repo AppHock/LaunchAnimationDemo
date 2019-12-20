@@ -14,6 +14,8 @@
 		CBC5250A23A8AA4300CB357B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC5250923A8AA4300CB357B /* main.m */; };
 		CBC5251123A8B0AF00CB357B /* 启动动画.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CBC5251023A8B0AF00CB357B /* 启动动画.mp4 */; };
 		CBC5251423A8B0C000CB357B /* LaunchAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC5251223A8B0C000CB357B /* LaunchAnimationVC.m */; };
+		CBDBC4BF23ACD1F600D84250 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBDBC4BE23ACD1F600D84250 /* Launch Screen.storyboard */; };
+		CBDBC4C123ACD56300D84250 /* Xs Max_1242x2688.png in Resources */ = {isa = PBXBuildFile; fileRef = CBDBC4C023ACD56300D84250 /* Xs Max_1242x2688.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		CBC5251023A8B0AF00CB357B /* 启动动画.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "启动动画.mp4"; sourceTree = "<group>"; };
 		CBC5251223A8B0C000CB357B /* LaunchAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAnimationVC.m; sourceTree = "<group>"; };
 		CBC5251323A8B0C000CB357B /* LaunchAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchAnimationVC.h; sourceTree = "<group>"; };
+		CBDBC4BE23ACD1F600D84250 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		CBDBC4C023ACD56300D84250 /* Xs Max_1242x2688.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Xs Max_1242x2688.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				CBC5250323A8AA4300CB357B /* Assets.xcassets */,
 				CBC5250823A8AA4300CB357B /* Info.plist */,
 				CBC5250923A8AA4300CB357B /* main.m */,
+				CBDBC4C023ACD56300D84250 /* Xs Max_1242x2688.png */,
+				CBDBC4BE23ACD1F600D84250 /* Launch Screen.storyboard */,
 			);
 			path = LaunchAnimationDemo;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			files = (
 				CBC5250423A8AA4300CB357B /* Assets.xcassets in Resources */,
 				CBC5250223A8AA4200CB357B /* Main.storyboard in Resources */,
+				CBDBC4BF23ACD1F600D84250 /* Launch Screen.storyboard in Resources */,
 				CBC5251123A8B0AF00CB357B /* 启动动画.mp4 in Resources */,
+				CBDBC4C123ACD56300D84250 /* Xs Max_1242x2688.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R996ZQRD3Z;
 				INFOPLIST_FILE = LaunchAnimationDemo/Info.plist;
@@ -301,7 +309,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R996ZQRD3Z;
 				INFOPLIST_FILE = LaunchAnimationDemo/Info.plist;
