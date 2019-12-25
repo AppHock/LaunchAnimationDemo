@@ -37,10 +37,27 @@
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:self.view.frame];
     UIImage *image = [self getVideoPreViewImage:url];
     imageView.image = image;
+    imageView.contentMode = UIViewContentModeScaleAspectFill;
     [self.view addSubview:imageView];
     
     [self play_AVPlayer:url];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(videoPlayEnd:) name:AVPlayerItemDidPlayToEndTimeNotification object:nil];
+    
+    // 如果需要调整图片的方向
+    // image = [image rotation:UIImageOrientationRight];
+    
+    
+    /*
+    // 如果UI没提供第一帧视频，可以通过获取视频第一帧，先把图片缓存在文件中，再从文件中拖入到Xcodef工程中
+    NSArray *paths =NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask,YES);
+    
+    // 保存文件的名称
+    NSString *filePath = [[paths objectAtIndex:0]stringByAppendingPathComponent:[NSString stringWithFormat:@"demo2.png"]];
+    BOOL result =[UIImagePNGRepresentation(image)writeToFile:filePath   atomically:YES];
+    if (result == YES) {
+        NSLog(@"保存成功");
+    }
+    */
 }
 
 - (void)play_AVPlayer:(NSURL *)url {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB13E65D23B2FF7400CE5992 /* LaunchImage_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = CB13E65C23B2FF7400CE5992 /* LaunchImage_iPhone.png */; };
 		CBC524FC23A8AA4200CB357B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC524FB23A8AA4200CB357B /* AppDelegate.m */; };
 		CBC524FF23A8AA4200CB357B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC524FE23A8AA4200CB357B /* ViewController.m */; };
 		CBC5250223A8AA4200CB357B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC5250023A8AA4200CB357B /* Main.storyboard */; };
@@ -15,10 +16,10 @@
 		CBC5251123A8B0AF00CB357B /* 启动动画.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CBC5251023A8B0AF00CB357B /* 启动动画.mp4 */; };
 		CBC5251423A8B0C000CB357B /* LaunchAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC5251223A8B0C000CB357B /* LaunchAnimationVC.m */; };
 		CBDBC4BF23ACD1F600D84250 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBDBC4BE23ACD1F600D84250 /* Launch Screen.storyboard */; };
-		CBDBC4C123ACD56300D84250 /* Xs Max_1242x2688.png in Resources */ = {isa = PBXBuildFile; fileRef = CBDBC4C023ACD56300D84250 /* Xs Max_1242x2688.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB13E65C23B2FF7400CE5992 /* LaunchImage_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage_iPhone.png; sourceTree = "<group>"; };
 		CBC524F723A8AA4200CB357B /* LaunchAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaunchAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBC524FA23A8AA4200CB357B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBC524FB23A8AA4200CB357B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -32,7 +33,6 @@
 		CBC5251223A8B0C000CB357B /* LaunchAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAnimationVC.m; sourceTree = "<group>"; };
 		CBC5251323A8B0C000CB357B /* LaunchAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchAnimationVC.h; sourceTree = "<group>"; };
 		CBDBC4BE23ACD1F600D84250 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		CBDBC4C023ACD56300D84250 /* Xs Max_1242x2688.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Xs Max_1242x2688.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 				CBC5250323A8AA4300CB357B /* Assets.xcassets */,
 				CBC5250823A8AA4300CB357B /* Info.plist */,
 				CBC5250923A8AA4300CB357B /* main.m */,
-				CBDBC4C023ACD56300D84250 /* Xs Max_1242x2688.png */,
+				CB13E65C23B2FF7400CE5992 /* LaunchImage_iPhone.png */,
 				CBDBC4BE23ACD1F600D84250 /* Launch Screen.storyboard */,
 			);
 			path = LaunchAnimationDemo;
@@ -142,8 +142,8 @@
 				CBC5250423A8AA4300CB357B /* Assets.xcassets in Resources */,
 				CBC5250223A8AA4200CB357B /* Main.storyboard in Resources */,
 				CBDBC4BF23ACD1F600D84250 /* Launch Screen.storyboard in Resources */,
+				CB13E65D23B2FF7400CE5992 /* LaunchImage_iPhone.png in Resources */,
 				CBC5251123A8B0AF00CB357B /* 启动动画.mp4 in Resources */,
-				CBDBC4C123ACD56300D84250 /* Xs Max_1242x2688.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
